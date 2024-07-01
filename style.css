@@ -134,6 +134,31 @@ button {
 
 /* End of Web Future Styles */
 
+/* New Posts */
+
+.new-posts {
+	background-color: hsl(240, 100%, 5%);
+	color: hsl(236, 13%, 60%);
+	padding: 1.5rem;
+}
+.new-posts .new-posts-title {
+	color: hsl(35, 77%, 62%);
+	font-weight: 700;
+	font-size: 2rem;
+}
+.new-posts .new-posts-subtitle {
+	font-weight: 700;
+	color: hsl(36, 100%, 99%);
+	font-size: 1.2rem;
+}
+.new-posts .bottom-border {
+	border-bottom: 0.1rem solid hsl(236, 13%, 60%);
+	padding-bottom: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+/* End of New Posts */
+
 /* Responsive Design */
 @media (max-width: 768px) {
 	.container {
