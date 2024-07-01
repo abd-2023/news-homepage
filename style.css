@@ -16,6 +16,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #f8f9fa;
 	color: #333;
+	padding: 2rem 1rem;
 }
 
 /* Basic Elements */
@@ -84,6 +85,19 @@ button {
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+
+/* Start of Main Styles */
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+}
+.nav .logo {
+	height: 2rem;
+}
+.nav .icon-menu {
+	height: 1rem;
 }
 
 /* Responsive Design */
