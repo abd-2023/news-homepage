@@ -5,6 +5,12 @@
 	box-sizing: border-box;
 }
 
+@font-face {
+	font-family: 'Inter';
+	src: local('Inter'),
+		url('/assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format(truetype);
+}
+
 html {
 	font-size: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -13,9 +19,9 @@ html {
 
 body {
 	line-height: 1.6;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Inter, Arial, Helvetica, sans-serif;
 	background-color: #f8f9fa;
-	color: #333;
+	color: hsl(236, 13%, 42%);
 	padding: 2rem 1rem;
 }
 
@@ -89,6 +95,7 @@ button {
 
 /* Start of Main Styles */
 
+/* navbar styles */
 .nav {
 	display: flex;
 	justify-content: space-between;
@@ -99,6 +106,33 @@ button {
 .nav .icon-menu {
 	height: 1rem;
 }
+
+/* End of navbar styles */
+
+/* Web Future Styles */
+
+.web-future {
+	margin: 2rem 0;
+}
+.web-future .web-future-title {
+	font-weight: 800;
+	font-size: 2.5rem;
+	line-height: 2.5rem;
+	margin: 1rem 0;
+	color: #000;
+}
+.web-future-button {
+	font-family: Inter, Arial, Helvetica, sans-serif;
+	font-weight: 800;
+	background-color: hsl(5, 85%, 63%);
+	color: #000;
+	border: 0;
+	outline: 0;
+	padding: 1rem 1.8rem;
+	letter-spacing: 0.3rem;
+}
+
+/* End of Web Future Styles */
 
 /* Responsive Design */
 @media (max-width: 768px) {
