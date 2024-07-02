@@ -18,18 +18,26 @@
 	<body>
 		<nav class="nav">
 			<img src="/assets/images/logo.svg" alt="Logo" class="logo" />
-			<img
-				src="/assets/images/icon-menu.svg"
-				alt="Logo"
-				class="icon-menu"
-			/>
-			<div class="nav-mobile-container">
+			<button class="nav-menu-button" onclick="toggleNavMobile()">
+				<img
+					src="/assets/images/icon-menu.svg"
+					alt="Menu"
+					class="icon-menu"
+				/>
+			</button>
+			<div id="nav-mobile-container" class="nav-mobile-container">
 				<div class="nav-mobile">
-					<img
-						src="/assets/images/icon-menu-close.svg"
-						alt="Close Nav Menu"
-						class="nav-close-menu"
-					/>
+					<button
+						class="nav-menu-button nav-close-menu-button"
+						onclick="toggleNavMobile()"
+					>
+						<img
+							src="/assets/images/icon-menu-close.svg"
+							alt="Close Nav Menu"
+							class="nav-close-menu"
+						/>
+					</button>
+
 					<ul class="nav-mobile-list">
 						<li>Home</li>
 						<li>New</li>
@@ -122,5 +130,6 @@
 				Frontend Mentor
 			</a>
 		</div>
+		<script src="/script.js"></script>
 	</body>
 </html>
