@@ -95,6 +95,63 @@ button {
 
 /* Start of Main Styles */
 
+/* Desktop Body  */
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	body {
+		display: grid;
+		gap: 2rem;
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.nav {
+		grid-column: span 3;
+		margin-bottom: 2rem;
+	}
+	body .web-future {
+		grid-column: 1 / span 2;
+		margin: 0;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2rem;
+	}
+	.web-future .web-future-img {
+		grid-column: span 2;
+		width: 100%;
+		object-fit: cover;
+		object-position: right top;
+		height: 20rem;
+	}
+	body .web-future .web-future-title {
+		grid-row: span 2;
+		line-height: 3.5rem;
+		font-size: 3.5rem;
+		margin: 0;
+	}
+	body .web-future p {
+		margin: 0;
+	}
+	body .new-posts .new-posts-title {
+		font-size: 2.5rem;
+	}
+	body .new-posts .new-posts-subtitle {
+		font-size: 1.3rem;
+	}
+	body .trending-posts {
+		grid-column: span 3;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 2rem;
+		margin: 0;
+	}
+	.web-future-button {
+		width: 55%;
+	}
+	.attribution {
+		grid-column: span 3;
+	}
+}
+/* End of Desktop Body  */
+
 /* navbar styles */
 .nav {
 	display: flex;
