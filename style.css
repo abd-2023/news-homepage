@@ -154,6 +154,44 @@ button {
 	line-height: 3rem;
 	color: #000;
 }
+.nav-desktop-list {
+	display: none;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	body {
+		padding: 5rem 2rem;
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+
+	.nav .logo {
+		width: 5rem;
+		height: auto;
+	}
+
+	.nav-menu-button,
+	.nav-mobile-container {
+		display: none;
+	}
+
+	.nav .nav-desktop-list {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		list-style: none;
+	}
+
+	.nav-desktop-list {
+		margin-bottom: 0;
+	}
+	.nav-desktop-list li {
+		margin-left: 3rem;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
 
 /* End of navbar styles */
 
